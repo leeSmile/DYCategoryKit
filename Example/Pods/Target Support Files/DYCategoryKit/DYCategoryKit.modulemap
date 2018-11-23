@@ -1,0 +1,6 @@
+framework module DYCategoryKit {
+  umbrella header "DYCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

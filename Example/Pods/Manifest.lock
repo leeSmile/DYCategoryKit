@@ -1,0 +1,16 @@
+PODS:
+  - DYCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - DYCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  DYCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYCategoryKit: 860512898cdab52d73d79e613f51ed12511b3dd2
+
+PODFILE CHECKSUM: ae10e110854aac7a8cc3f7691615309d32699771
+
+COCOAPODS: 1.5.3

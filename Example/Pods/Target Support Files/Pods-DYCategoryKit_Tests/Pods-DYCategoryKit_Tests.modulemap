@@ -1,0 +1,6 @@
+framework module Pods_DYCategoryKit_Tests {
+  umbrella header "Pods-DYCategoryKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
