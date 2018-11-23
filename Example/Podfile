@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DYCategoryKit_Example' do
+  pod 'DYCategoryKit', :path => '../'
+
+  target 'DYCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
