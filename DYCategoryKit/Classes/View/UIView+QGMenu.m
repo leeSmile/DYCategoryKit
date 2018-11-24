@@ -252,8 +252,8 @@ static UIMenuItem   *   g_moreItem;
 /** 导航栏的返回按钮 */
 +(UIButton *)backButtton{
     UIButton *backBtton = [[UIButton alloc] initWithFrame:CGRectMake(3, 20, 44, 44)];
-    UIImage *backImg = [UIImage svgImageNamed:@"user_center_back" size:CGSizeMake(44, 44)];
-    [backBtton setImage:backImg forState:UIControlStateNormal];
+//    UIImage *backImg = [UIImage svgImageNamed:@"user_center_back" size:CGSizeMake(44, 44)];
+//    [backBtton setImage:backImg forState:UIControlStateNormal];
     return backBtton;
 }
 
