@@ -1,5 +1,5 @@
 PODS:
-  - DYCategoryKit (0.0.5)
+  - DYCategoryKit (0.0.6)
 
 DEPENDENCIES:
   - DYCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYCategoryKit: 6653a54a8af62de91cadfcdb1cc9de6ad2a44309
+  DYCategoryKit: a5262889892d5d75552d6be51578fe36f8c7967c
 
 PODFILE CHECKSUM: ae10e110854aac7a8cc3f7691615309d32699771
 

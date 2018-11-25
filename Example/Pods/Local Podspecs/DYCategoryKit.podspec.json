@@ -1,6 +1,6 @@
 {
   "name": "DYCategoryKit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "DYCategoryKit   .",
   "description": "DYCategoryKit   分类",
   "homepage": "https://github.com/leeSmile/DYCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/leeSmile/DYCategoryKit.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
