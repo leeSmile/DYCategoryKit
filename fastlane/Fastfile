@@ -15,6 +15,7 @@ cocoapods(
     podfile: "./Example/Podfile"
 )
 
+# 修改podspec里面版本号
 version_bump_podspec(path: "#{targetName}.podspec", version_number: tagName)
 
 # git add .
@@ -48,8 +49,7 @@ push_git_tags
 # pod lib lint
 pod_lib_lint(allow_warnings: true)
 # pod repo push LXSpecs "#{targetName}.podspec"
-#pod_push(path: "#{targetName}.podspec", repo: "LXSpecs", allow_warnings:true)
-pod_push(path: "DYCategoryKit.podspec", repo: "LXSpecs", allow_warnings:true)
+pod_push(path: "#{targetName}.podspec", repo: "LXSpecs", allow_warnings:true)
 
 
 end
