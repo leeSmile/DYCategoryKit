@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYCategoryKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'DYCategoryKit   .'
 
 # This description is used to generate tags and improve search results.
