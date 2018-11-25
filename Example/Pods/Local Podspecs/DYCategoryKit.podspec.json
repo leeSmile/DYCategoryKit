@@ -1,9 +1,9 @@
 {
   "name": "DYCategoryKit",
-  "version": "0.1.0",
-  "summary": "A short description of DYCategoryKit.",
+  "version": "0.0.3",
+  "summary": "A short description of DYCategoryKit .",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/244645877@qq.com/DYCategoryKit",
+  "homepage": "https://github.com/leeSmile/DYCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "244645877@qq.com": "244645877@qq.com"
   },
   "source": {
-    "git": "https://github.com/244645877@qq.com/DYCategoryKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/leeSmile/DYCategoryKit.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"

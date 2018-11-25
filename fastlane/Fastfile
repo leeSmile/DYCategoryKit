@@ -1,0 +1,53 @@
+
+# 描述一个航道,
+desc "可以快速的去编译, 上传, 一个pod私有库"
+
+
+# 定义航道
+lane :rpodLib do |options|
+targetName = options[:project]
+tagName = options[:tagName]
+
+# 在这个里面, 就要根据我们制定的自动化流程, 去写 action
+
+# pod install
+cocoapods(
+    podfile: "./Example/Podfile"
+)
+
+# git add .
+git_add(path: ".")
+
+# git commit -m "xxx"
+git_commit(path: ".", message: "维护pod私有库")
+# git push origin master
+push_to_git_remote
+
+# 判断标签是否已经存在
+# 如果存在, 应该删除标签(本地标签, 远程标签)
+if git_tag_exists(tag: tagName)
+    UI.message("已经发现存在#{tagName}这个标签, 此处, 删除该标签对应的本地和远程标签")
+    remove_tag(tagName: tagName)
+
+end
+
+
+
+
+
+
+# git tag -a '#{tag}'
+add_git_tag(
+tag: tagName
+)
+# git push --tags
+push_git_tags
+
+# pod lib lint
+pod_lib_lint(allow_warnings: true)
+# pod repo push LXSpecs "#{targetName}.podspec"
+pod_push(path: "#{targetName}.podspec", repo: "LXSpecs", allow_warnings:true)
+
+
+
+end
